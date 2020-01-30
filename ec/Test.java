@@ -3,10 +3,6 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 public class Test {
 
-//	@org.junit.Test
-//	public void test() {
-//		fail("Not yet implemented");
-//	}
 	@org.junit.Test
 	public void BubbleSortTest() {
 		ArrayList<Integer> test = new ArrayList<Integer>();
