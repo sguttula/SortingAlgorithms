@@ -6,7 +6,6 @@ public class Print {
 		for(int i = 0 ; i < 10 ; i++) {
 			System.out.print(list1.get(i) + " ");
 			if(spacing % 10 == 0) {
-				//System.out.println();
 			}
 			spacing++;
 		}
