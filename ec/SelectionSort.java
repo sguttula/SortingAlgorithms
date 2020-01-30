@@ -3,16 +3,11 @@ package ec;
 import java.util.ArrayList;
 
 public class SelectionSort<T extends Comparable<T>> implements SortingAlgorithms {
-	private ArrayList<T> blist = null /*new ArrayList<Integer>()*/;
+	private ArrayList<T> blist = null
 	public SelectionSort() {
 		ArrayList<T> b = new ArrayList<T>();
 		blist = b;
-//		slist = print(b);
 		sortingAlgorithms();
-		//		SelectionSort.list = listOf10;
-		
-//		sorttype.set("Selection Sort");
-//		size.set(Integer.toString(list.size()));
 	}
 	private long comparisons = 0;
 	private long swaps = 0;
