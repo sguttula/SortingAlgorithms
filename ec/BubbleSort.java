@@ -57,14 +57,6 @@ public class BubbleSort<T extends Comparable<T>> implements SortingAlgorithms {
 	public void runtime() {
 		System.out.print("Runtime: "  + runtime + " ms");
 	}
-//	public BubbleSort(ArrayList<Long> list1) {
-//		this.list = list1;	
-////		sorttype.set("Bubble Sort");
-////		size.set(Integer.toString(list.size()));
-////		BubbleSort.runtimer.set(Long.toString(runtime) + " milliseconds");
-////		compar.set(Long.toString(comparisons));
-////		swas.set(Long.toString(swaps));
-//	}
 	public long getComparisons() {
 		return this.comparisons;
 	}
