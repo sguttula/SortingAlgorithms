@@ -76,4 +76,4 @@ public class CountingSort<T extends Comparable<T>> implements SortingAlgorithms{
 		endTime = System.currentTimeMillis();
 		runtime = endTime - start;
 	}
-}
+} 
