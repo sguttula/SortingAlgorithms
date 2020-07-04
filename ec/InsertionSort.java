@@ -58,3 +58,4 @@ public class InsertionSort<T extends Comparable<T>> implements SortingAlgorithms
 		
 	}
 }
+ 
