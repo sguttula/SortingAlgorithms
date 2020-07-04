@@ -60,4 +60,4 @@ public class GnomeSort<T extends Comparable<T>> implements SortingAlgorithms{
 	public void sortingAlgorithms() {
 		gnomeSort(list);
 	}
-}
+} 
