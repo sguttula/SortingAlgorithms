@@ -1,4 +1,4 @@
-package ec;
+package ec; 
 
 public class Main {
 	
