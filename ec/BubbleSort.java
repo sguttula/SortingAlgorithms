@@ -1,7 +1,7 @@
 package ec; 
 import java.util.ArrayList;
 public class BubbleSort<T extends Comparable<T>> implements SortingAlgorithms {
-	private ArrayList<T> blist = null /*new ArrayList<Integer>()*/;
+	private ArrayList<T> blist = null;
 	private long comparisons = 0;
 	private long swaps = 0;
 	private long runtime = 0;
