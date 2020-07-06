@@ -1,4 +1,4 @@
-package ec;
+package ec; 
 import java.util.ArrayList;
 public class BubbleSort<T extends Comparable<T>> implements SortingAlgorithms {
 	private ArrayList<T> blist = null /*new ArrayList<Integer>()*/;
