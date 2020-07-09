@@ -13,7 +13,7 @@ public class SelectionSort<T extends Comparable<T>> implements SortingAlgorithms
 	private long swaps = 0;
 	private long runtime = 0;
 	static long start;
-	static long end;
+	static long end; 
 	public ArrayList<T> selectionSort(ArrayList<T> list) {
 		long comparisons = 0;
 		long swaps = 1;
