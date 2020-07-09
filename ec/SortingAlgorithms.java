@@ -3,4 +3,4 @@ public interface SortingAlgorithms{
 	
 	public void sortingAlgorithms();
 	
-}
+} 
